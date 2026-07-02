@@ -6,6 +6,14 @@ Lateral movement is difficult to identify because attackers often use valid cred
 
 For this project, I use `wls_day-01.bz2` from the LANL Unified Host and Network Dataset. The file contains de-identified Windows host event logs from an enterprise environment. Authentication-related events are extracted and converted into a directed graph of host-to-host activity.
 
+## Research Paper
+
+A detailed research paper related to this project is included in the repository:
+
+[Graph-Based Machine Learning for Detecting Lateral Movement in Enterprise Networks](docs/research-paper.pdf)
+
+The paper explains the research background, proposed graph-based approach, related work, limitations, and practical deployment considerations for detecting lateral movement in enterprise networks.
+
 ## Problem
 
 Traditional log analysis often looks at individual events separately. However, lateral movement is usually more visible when events are viewed as a sequence or relationship between systems.
