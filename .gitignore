@@ -1,0 +1,7 @@
+data/*.bz2
+data/*.gz
+data/*.csv
+outputs/*.csv
+__pycache__/
+.DS_Store
+.env
